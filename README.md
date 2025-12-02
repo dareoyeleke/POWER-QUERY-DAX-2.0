@@ -186,6 +186,9 @@ Shows the top skills in data, ranked by frequency:
 
 -  Custom parameter tables for controlled interactions
 
+-  Use DAX functions to operate at row, query and filter contexts
+  - Functions like CALCULATE, SUM, SUMX, FILTER, ALL, ALLEXCEPT, FORMAT(date/time), CALENDAR, CALENDAR AUTO. e.t.c were utilized to this effect       
+
 💡 Designed for speed, maintainability, and clarity.
 
 ### 🖥️ How to Use
