@@ -1,5 +1,5 @@
 # POWER-QUERY-DAX-2.0
-Creating Visuals was just the beginning. Power Query and DAX have taken things a step further giving me more control over manipulating my data. The steps along with screenshots of visual will help you through mu journey through DAX and power query and the skills used as well as insights found with this project 
+Creating Visuals was just the beginning. Power Query and DAX have taken things a step further giving me more control over manipulating my data. The steps along with screenshots of visual will help you through mu journey through DAX and power query and the skills used as well as insights found with this project. My full prject on core visuals along with the dashboard can be viewed at this link https://github.com/dareoyeleke/power_bi_dashboard_and_visuals-
 
 
 # 📊 Data Jobs Analytics Dashboard (Power BI + Power Query + DAX)
@@ -7,15 +7,15 @@ Creating Visuals was just the beginning. Power Query and DAX have taken things a
 
 This project analyzes the data science and analytics job market using Power BI, with emphasis on:
 
-⚙️ Power Query for automated data shaping
+🧱→🔧→📊 Power Query (ETL and Data shaping) 
 
-📐 DAX for analytics and KPI modeling
+📐 DAX for analytics and KPI modeling (Aggregations, measures, parameters,columns, tables) 
 
-🗃️ Dimensional modeling for performance and clarity
+🗃️ Dimensional modeling (star schema and relationships)  for performance and clarity
 
 📈 Visual insights into job demand, salaries, and skills
 
-The dashboard is designed for recruiters, hiring managers, and job seekers to quickly understand what roles pay well, where demand is highest, and which skills matter most.
+**The dashboard is designed for recruiters, hiring managers, and job seekers to quickly understand what roles pay well, where demand is highest, and which skills matter most.**
 
 ### 🎯 Key Business Questions
 
@@ -234,8 +234,23 @@ Skill clustering / recommendation engine
 -  Email: oyesope@gmail.com
 -  LinkedIn: https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3BrEJT%2B0LuT3uhIlpIujK1IQ%3D%3D
 
-# 📎 Screenshots
+
+# CONCLUSION 💡
+```
+  The visuals below show how applying Power BI through power query and DAX can transform messy data and give insighful answers
+to questions about the job market. Navigating potential career paths can be difficult, but with structured and arranged insights
+like this, it's definitely less difficult to create informed decisions when facing a bulk of data such as these job postings  
+```
+
+# 📎 Screenshots of Visuals
 ### 🖼️ Dashboard
+
+```
+  This visual is a summary representation of the job market, showcasing key performance indicators like Job Count, Skills per job,
+Median Yearly Salary, Median Hourly Salary adjudted to the year, side by side metrics for both and the percentages for jobs.
+Overall the Dashboard is designed for efficient navigation, with included slicers and bookarks to drill down to specific jobs,
+countries and a combination of multiple at the same time, and/or effectively clear the selections to start fresh if needed.  
+```
 
 <img width="1920" height="1080" alt="QUERY DAX DASH 2 0" src="https://github.com/user-attachments/assets/4c2f646f-311c-408f-863a-f41a79d20bab" />
 
@@ -243,12 +258,23 @@ Skill clustering / recommendation engine
 
 
 ### 🗺️ Data Model
-
+```
+  The data model here, shows the flat table, i.e the main table (job_postings_fact) and every dimensional table created from it
+as well.All parameters, both numerical and field are shown, as well as measures used throughout the project.
+While the numerical parameter isn't used in the Dashboard, the visual below shows its application.   
+```
   <img width="1920" height="1016" alt="tables, measures, parameters model" src="https://github.com/user-attachments/assets/2dfe3eb7-3cb4-4263-bb37-5f45f5b16c20" />
 
 
-### Worthy of Mention 
+### Worthy of Mention ⭐
 **Visual with Numeric parameter to visualize tax deductions at different rates for Yearly and Hourly Salary adjusted to the year for multiple positions** 
+
+```
+  The numerical parameter indicated above was used in combination to create this visual with frequently used metrics.
+Those metris were made into aggregate measures for quick access to compare US specific hourly salaries adjusted to a full year.
+A full year being 52 40 hour weeks and yearly salaries, with a side by side numerical parameter to compare different deduction
+rates with a sliding scale or tax rate input
+```
 
 <img width="1920" height="1080" alt="QUERY DAX 11" src="https://github.com/user-attachments/assets/b16b5471-0448-4942-af09-6fa783b5ba40" />
 
